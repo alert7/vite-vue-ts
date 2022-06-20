@@ -1,2 +1,10 @@
-# vite-vue-ts
-简单的vite构建的vue的架子
+# Vue 3 + TypeScript + Vite
+
+## Vue-router + Vuex + Sass
+
+## 本地启动
+  ```
+  1. npm install
+  2. npm run dev
+  ```
+
