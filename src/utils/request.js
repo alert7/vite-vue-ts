@@ -10,10 +10,9 @@ import axios from 'axios';
 
 // 创建axios实例
 const service = axios.create({
-  // 这里拿线上接口测试
-  baseUrl: 'http',
+  baseUrl: '',
   headers: {}, // 请求头
-  settimeout: 2000// 超时时间
+  settimeout: 20000// 超时时间
 });
 // 添加请求拦截器
 service.interceptors.request.use(
